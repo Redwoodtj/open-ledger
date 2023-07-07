@@ -2,3 +2,4 @@ Pillow
 pytest
 git+git://github.com/creativecommons/blockhash-python.git#egg=blockhash-python
 imagehash
+scipy>=1.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
