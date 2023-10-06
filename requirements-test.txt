@@ -8,3 +8,5 @@ responses
 git+git://github.com/lizadaly/fabtools.git#egg=fabtools
 django-debug-toolbar
 git+https://github.com/djsutho/django-debug-toolbar-request-history.git
+django>=3.2.22 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.4.4 # not directly required, pinned by Snyk to avoid a vulnerability
